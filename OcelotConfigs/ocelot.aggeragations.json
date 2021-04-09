@@ -1,0 +1,12 @@
+{
+  "Aggregates": [
+    {
+      "ReRouteKeys": [
+        "users",
+        "bar"
+      ],
+      "UpstreamPathTemplate": "/ag",
+      "Aggregator": "PingAggregator"
+    }
+  ]
+}
